@@ -39,3 +39,4 @@ nodejs-app/coverage/**
 nodejs-app/node_modules/**
 nodejs-app/node_modules/**
 nodejs-app/more/**
+/target/
