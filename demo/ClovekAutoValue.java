@@ -1,5 +1,6 @@
 package net.sahet.autovalue.demo;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.google.auto.value.AutoValue;
@@ -15,8 +16,8 @@ public abstract class ClovekAutoValue {
 		 * defensive copies, including one for the favoriteMovies collection.
 		 */
 		// create defensive copy before calling constructor
-		List<String> favoriteMoviesCopy = List.copyOf(favoriteMovies);
-		return new AutoValue_ClovekAutoValue(name, favoriteMovies);
+		List<String> favoriteMoviesCopy = new ArrayList<>(); // List.copyOf(favoriteMovies);
+		return null ;//new AutoValue_ClovekAutoValue(name, favoriteMovies);
 	}
 
 	public abstract String name();

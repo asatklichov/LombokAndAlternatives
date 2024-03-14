@@ -1,5 +1,8 @@
 HELP.md
-target/
+target/maven-archiver
+target/maven-status
+autovalue-demo-0.0.1-SNAPSHOT.jar
+autovalue-demo-0.0.1-SNAPSHOT.jar.original
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/

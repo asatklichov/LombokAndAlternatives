@@ -1,4 +1,4 @@
-package net.sahet.autovalue.demo;
+package net.sahet.autovalue.data.model;
 
 public final class ImmutableMoney {
 	private final long amount;

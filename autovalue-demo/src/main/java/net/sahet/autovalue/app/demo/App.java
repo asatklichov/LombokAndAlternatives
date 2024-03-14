@@ -1,10 +1,9 @@
-package net.sahet.lombok.demo;
+package net.sahet.autovalue.app.demo;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//https://github.com/mchernyavskaya
 @SpringBootApplication
 public class App implements CommandLineRunner {
 	public static void main(String[] args) throws Exception {
@@ -13,7 +12,12 @@ public class App implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		final Adam anna = Adam.builder().age(31).firstName("Anna").lastName("Smith").build();
-		System.out.println(anna);
+		/*
+		 * final Person p =
+		 * Person.builder().age(31).firstName("Ola").lastName("Ilo").build();
+		 * System.out.println(p);
+		 */
+
+		System.out.println("---");
 	}
 }

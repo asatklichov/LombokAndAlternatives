@@ -1,4 +1,4 @@
-package net.sahet.autovalue.demo;
+package net.sahet.autovalue.data.model;
 
 import com.google.auto.value.AutoValue;
 
@@ -10,13 +10,13 @@ public abstract class Person {
 
 	public abstract Integer age();
 
-	public static Person create(String lastName, String firstName, Integer age) {
-		return builder().lastName(lastName).firstName(firstName).age(age).build();
-	}
-
-	public static Builder builder() {
-		return new AutoValue_Person.Builder();
-	}
+//	public static Person create(String lastName, String firstName, Integer age) {
+//		return builder().lastName(lastName).firstName(firstName).age(age).build();
+//	}
+//
+//	public static Builder builder() {
+//		return new AutoValue_Person.Builder();
+//	}
 
 	@AutoValue.Builder
 	public abstract static class Builder {

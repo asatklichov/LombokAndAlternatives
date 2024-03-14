@@ -1,7 +1,9 @@
-package net.sahet.autovalue.demo;
+package net.sahet.autovalue.app.demo;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import net.sahet.autovalue.data.model.Clovek;
 
 //https://www.baeldung.com/autovalue-defensive-copies
 public class DefensiveCopyDemo {
