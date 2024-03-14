@@ -1,4 +1,4 @@
-package net.sahet.immutables.demo;
+package net.sahet.immutables.model;
 
 import java.util.List;
 import java.util.Optional;

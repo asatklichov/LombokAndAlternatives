@@ -1,4 +1,4 @@
-package net.sahet.immutables.demo;
+package net.sahet.immutables.model;
 
 import org.immutables.value.Value;
 
