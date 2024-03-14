@@ -1,4 +1,4 @@
-package net.sahet.autovalue.demo;
+package net.sahet.autovalue.data.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public abstract class ClovekAutoValue {
 		 */
 		// create defensive copy before calling constructor
 		List<String> favoriteMoviesCopy = new ArrayList<>(); // List.copyOf(favoriteMovies);
-		return null ;//new AutoValue_ClovekAutoValue(name, favoriteMovies);
+		return null;// new AutoValue_ClovekAutoValue(name, favoriteMovies);
 	}
 
 	public abstract String name();

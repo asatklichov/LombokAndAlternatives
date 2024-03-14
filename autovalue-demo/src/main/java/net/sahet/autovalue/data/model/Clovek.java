@@ -1,7 +1,6 @@
 package net.sahet.autovalue.data.model;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Clovek {
@@ -20,10 +19,11 @@ public class Clovek {
 		 * 
 		 * Java 10 introduced defensive copy static factory methods such as List.copyOf.
 		 */
-		this.favoriteMovies = new ArrayList<>(favoriteMovies);//List.copyOf
+		this.favoriteMovies = new ArrayList<>(favoriteMovies);// List.copyOf
 
 		// prior to Java 10
-		//this.favoriteMovies = Collections.unmodifiableList(new ArrayList<>(favoriteMovies));
+		// this.favoriteMovies = Collections.unmodifiableList(new
+		// ArrayList<>(favoriteMovies));
 	}
 
 	public String getName() {

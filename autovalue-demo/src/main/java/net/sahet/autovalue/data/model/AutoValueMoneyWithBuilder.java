@@ -1,4 +1,4 @@
-package net.sahet.autovalue.demo;
+package net.sahet.autovalue.data.model;
 
 import com.google.auto.value.AutoValue;
 
@@ -21,8 +21,6 @@ import com.google.auto.value.AutoValue;
  * Our AutoValue class does not really change much, except that the static
  * factory method is replaced by a builder:
  *
- * 
- * 
  */
 @AutoValue
 public abstract class AutoValueMoneyWithBuilder {
@@ -38,8 +36,8 @@ public abstract class AutoValueMoneyWithBuilder {
 	public abstract static class Builder {
 		public abstract Builder setCurrency(String currency);
 
-		public  abstract Builder setAmount(long amount);
+		public abstract Builder setAmount(long amount);
 
-		public  abstract AutoValueMoneyWithBuilder build();
+		public abstract AutoValueMoneyWithBuilder build();
 	}
 }
