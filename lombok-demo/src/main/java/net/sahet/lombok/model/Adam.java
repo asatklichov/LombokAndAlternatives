@@ -1,4 +1,4 @@
-package net.sahet.lombok.demo;
+package net.sahet.lombok.model;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

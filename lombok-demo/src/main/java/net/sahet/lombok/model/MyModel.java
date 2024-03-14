@@ -1,4 +1,4 @@
-package net.sahet.lombok.demo;
+package net.sahet.lombok.model;
 
 import java.util.List;
 import java.util.Optional;
