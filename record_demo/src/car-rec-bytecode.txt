@@ -1,0 +1,199 @@
+Classfile /C:/workspace-17/LombokAndAlternatives/record_demo/src/Car.class
+  Last modified Mar 15, 2024; size 1487 bytes
+  SHA-256 checksum 594198fa31d8105b561df35fe240cf5e20e49b7d58871371128122d660a78c26
+  Compiled from "Car.java"
+final class record_demonet.sahet.record.Car extends java.lang.Record
+  minor version: 0
+  major version: 61
+  flags: (0x0030) ACC_FINAL, ACC_SUPER
+  this_class: #8                          // record_demonet/sahet/record/Car
+  super_class: #2                         // java/lang/Record
+  interfaces: 0, fields: 3, methods: 7, attributes: 4
+Constant pool:
+   #1 = Methodref          #2.#3          // java/lang/Record."<init>":()V
+   #2 = Class              #4             // java/lang/Record
+   #3 = NameAndType        #5:#6          // "<init>":()V
+   #4 = Utf8               java/lang/Record
+   #5 = Utf8               <init>
+   #6 = Utf8               ()V
+   #7 = Fieldref           #8.#9          // record_demonet/sahet/record/Car.model:Ljava/lang/String;
+   #8 = Class              #10            // record_demonet/sahet/record/Car
+   #9 = NameAndType        #11:#12        // model:Ljava/lang/String;
+  #10 = Utf8               record_demonet/sahet/record/Car
+  #11 = Utf8               model
+  #12 = Utf8               Ljava/lang/String;
+  #13 = Fieldref           #8.#14         // record_demonet/sahet/record/Car.producedDate:Ljava/time/LocalDate;
+  #14 = NameAndType        #15:#16        // producedDate:Ljava/time/LocalDate;
+  #15 = Utf8               producedDate
+  #16 = Utf8               Ljava/time/LocalDate;
+  #17 = Fieldref           #8.#18         // record_demonet/sahet/record/Car.vin:Ljava/lang/String;
+  #18 = NameAndType        #19:#12        // vin:Ljava/lang/String;
+  #19 = Utf8               vin
+  #20 = InvokeDynamic      #0:#21         // #0:toString:(Lrecord_demonet/sahet/record/Car;)Ljava/lang/String;
+  #21 = NameAndType        #22:#23        // toString:(Lrecord_demonet/sahet/record/Car;)Ljava/lang/String;
+  #22 = Utf8               toString
+  #23 = Utf8               (Lrecord_demonet/sahet/record/Car;)Ljava/lang/String;
+  #24 = InvokeDynamic      #0:#25         // #0:hashCode:(Lrecord_demonet/sahet/record/Car;)I
+  #25 = NameAndType        #26:#27        // hashCode:(Lrecord_demonet/sahet/record/Car;)I
+  #26 = Utf8               hashCode
+  #27 = Utf8               (Lrecord_demonet/sahet/record/Car;)I
+  #28 = InvokeDynamic      #0:#29         // #0:equals:(Lrecord_demonet/sahet/record/Car;Ljava/lang/Object;)Z
+  #29 = NameAndType        #30:#31        // equals:(Lrecord_demonet/sahet/record/Car;Ljava/lang/Object;)Z
+  #30 = Utf8               equals
+  #31 = Utf8               (Lrecord_demonet/sahet/record/Car;Ljava/lang/Object;)Z
+  #32 = Utf8               (Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;)V
+  #33 = Utf8               Code
+  #34 = Utf8               LineNumberTable
+  #35 = Utf8               MethodParameters
+  #36 = Utf8               ()Ljava/lang/String;
+  #37 = Utf8               ()I
+  #38 = Utf8               (Ljava/lang/Object;)Z
+  #39 = Utf8               ()Ljava/time/LocalDate;
+  #40 = Utf8               SourceFile
+  #41 = Utf8               Car.java
+  #42 = Utf8               Record
+  #43 = Utf8               BootstrapMethods
+  #44 = MethodHandle       6:#45          // REF_invokeStatic java/lang/runtime/ObjectMethods.bootstrap:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/TypeDescriptor;Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/invoke/MethodHandle;)Ljava/lang/Object;
+  #45 = Methodref          #46.#47        // java/lang/runtime/ObjectMethods.bootstrap:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/TypeDescriptor;Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/invoke/MethodHandle;)Ljava/lang/Object;
+  #46 = Class              #48            // java/lang/runtime/ObjectMethods
+  #47 = NameAndType        #49:#50        // bootstrap:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/TypeDescriptor;Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/invoke/MethodHandle;)Ljava/lang/Object;
+  #48 = Utf8               java/lang/runtime/ObjectMethods
+  #49 = Utf8               bootstrap
+  #50 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/TypeDescriptor;Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/invoke/MethodHandle;)Ljava/lang/Object;
+  #51 = String             #52            // model;producedDate;vin
+  #52 = Utf8               model;producedDate;vin
+  #53 = MethodHandle       1:#7           // REF_getField record_demonet/sahet/record/Car.model:Ljava/lang/String;
+  #54 = MethodHandle       1:#13          // REF_getField record_demonet/sahet/record/Car.producedDate:Ljava/time/LocalDate;
+  #55 = MethodHandle       1:#17          // REF_getField record_demonet/sahet/record/Car.vin:Ljava/lang/String;
+  #56 = Utf8               InnerClasses
+  #57 = Class              #58            // java/lang/invoke/MethodHandles$Lookup
+  #58 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #59 = Class              #60            // java/lang/invoke/MethodHandles
+  #60 = Utf8               java/lang/invoke/MethodHandles
+  #61 = Utf8               Lookup
+{
+  private final java.lang.String model;
+    descriptor: Ljava/lang/String;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  private final java.time.LocalDate producedDate;
+    descriptor: Ljava/time/LocalDate;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  private final java.lang.String vin;
+    descriptor: Ljava/lang/String;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  record_demonet.sahet.record.Car(java.lang.String, java.time.LocalDate, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;)V
+    flags: (0x0000)
+    Code:
+      stack=2, locals=4, args_size=4
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Record."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #7                  // Field model:Ljava/lang/String;
+         9: aload_0
+        10: aload_2
+        11: putfield      #13                 // Field producedDate:Ljava/time/LocalDate;
+        14: aload_0
+        15: aload_3
+        16: putfield      #17                 // Field vin:Ljava/lang/String;
+        19: return
+      LineNumberTable:
+        line 5: 0
+    MethodParameters:
+      Name                           Flags
+      model
+      producedDate
+      vin
+
+  public final java.lang.String toString();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokedynamic #20,  0             // InvokeDynamic #0:toString:(Lrecord_demonet/sahet/record/Car;)Ljava/lang/String;
+         6: areturn
+      LineNumberTable:
+        line 5: 0
+
+  public final int hashCode();
+    descriptor: ()I
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokedynamic #24,  0             // InvokeDynamic #0:hashCode:(Lrecord_demonet/sahet/record/Car;)I
+         6: ireturn
+      LineNumberTable:
+        line 5: 0
+
+  public final boolean equals(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: (0x0011) ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokedynamic #28,  0             // InvokeDynamic #0:equals:(Lrecord_demonet/sahet/record/Car;Ljava/lang/Object;)Z
+         7: ireturn
+      LineNumberTable:
+        line 5: 0
+
+  public java.lang.String model();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #7                  // Field model:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 5: 0
+
+  public java.time.LocalDate producedDate();
+    descriptor: ()Ljava/time/LocalDate;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #13                 // Field producedDate:Ljava/time/LocalDate;
+         4: areturn
+      LineNumberTable:
+        line 5: 0
+
+  public java.lang.String vin();
+    descriptor: ()Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #17                 // Field vin:Ljava/lang/String;
+         4: areturn
+      LineNumberTable:
+        line 5: 0
+}
+SourceFile: "Car.java"
+Record:
+  java.lang.String model;
+    descriptor: Ljava/lang/String;
+
+  java.time.LocalDate producedDate;
+    descriptor: Ljava/time/LocalDate;
+
+  java.lang.String vin;
+    descriptor: Ljava/lang/String;
+
+BootstrapMethods:
+  0: #44 REF_invokeStatic java/lang/runtime/ObjectMethods.bootstrap:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/TypeDescriptor;Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/invoke/MethodHandle;)Ljava/lang/Object;
+    Method arguments:
+      #8 record_demonet/sahet/record/Car
+      #51 model;producedDate;vin
+      #53 REF_getField record_demonet/sahet/record/Car.model:Ljava/lang/String;
+      #54 REF_getField record_demonet/sahet/record/Car.producedDate:Ljava/time/LocalDate;
+      #55 REF_getField record_demonet/sahet/record/Car.vin:Ljava/lang/String;
+InnerClasses:
+  public static final #61= #57 of #59;    // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
