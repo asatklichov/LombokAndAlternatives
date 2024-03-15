@@ -1,4 +1,4 @@
-package record_demonet.sahet.record;
+package record_demo.net.sahet.record;
 
 import java.time.LocalDate;
 
