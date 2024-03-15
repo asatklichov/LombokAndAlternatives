@@ -4,8 +4,7 @@ import java.util.Objects;
 
 //public record AdamRec (String name, String address) { }
 
-public record AdamRec(String name, String address) {
-}
+public record AdamRec(String name, String address) {}
 
 //constructor with different arguments by supplying a different argument list:
 /**

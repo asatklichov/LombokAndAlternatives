@@ -3,7 +3,7 @@ package record_demonet.sahet.record;
 import java.util.Objects;
 
 //Vanilla Code
-public class Adam {
+public final class Adam {
 
 	private final String name;
 	private final String address;
@@ -42,7 +42,4 @@ public class Adam {
 	public String getAddress() {
 		return address;
 	}
-
-
-
 }
