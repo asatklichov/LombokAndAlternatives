@@ -9,7 +9,7 @@ public class CarDemo {
 		String vin = "AbC23332323JSS23";
 		LocalDate producedDate = LocalDate.of(2022, 1, 13);
 
-		System.out.println("Using Java Bean");
+		System.out.println("Using Verbose Java");
 		VeboseCar car1 = new VeboseCar(model, producedDate, vin);
 		System.out.println(car1);
 
